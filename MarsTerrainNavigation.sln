@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsTerrainNavigation", "MarsTerrainNavigation\MarsTerrainNavigation.csproj", "{7FCEDFBF-3C81-43F0-BF01-33C755AA7532}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarsTerrainNavigation", "MarsTerrainNavigation\MarsTerrainNavigation.csproj", "{7FCEDFBF-3C81-43F0-BF01-33C755AA7532}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navigation_Tests", "Navigation_Tests\Navigation_Tests.csproj", "{BDAD0B9C-168E-4FA4-91CC-E4A7B44FBD4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsTerrainTests", "MarsTerrainTests\MarsTerrainTests.csproj", "{17996F8E-447C-439A-A090-F3C364BEC1EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{7FCEDFBF-3C81-43F0-BF01-33C755AA7532}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FCEDFBF-3C81-43F0-BF01-33C755AA7532}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FCEDFBF-3C81-43F0-BF01-33C755AA7532}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BDAD0B9C-168E-4FA4-91CC-E4A7B44FBD4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BDAD0B9C-168E-4FA4-91CC-E4A7B44FBD4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BDAD0B9C-168E-4FA4-91CC-E4A7B44FBD4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BDAD0B9C-168E-4FA4-91CC-E4A7B44FBD4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17996F8E-447C-439A-A090-F3C364BEC1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17996F8E-447C-439A-A090-F3C364BEC1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17996F8E-447C-439A-A090-F3C364BEC1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17996F8E-447C-439A-A090-F3C364BEC1EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

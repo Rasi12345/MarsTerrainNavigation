@@ -1,6 +1,12 @@
-﻿using MarsTerrainNavigation;
-using System;
+﻿using MarsTerrainNavigation.Classes;
+using MarsTerrainNavigation.Models;
+using static MarsTerrainNavigation.Constants.Enums;
 
-Navigation_Mars nav = new Navigation_Mars("5X5", "FFRFLFLF");
-(int i, int j, string direction) = nav.Traverse();
-Console.WriteLine($"{i},{j},{direction}");
+var grid = new Grid(5, 5);
+var command = "FFRFLFLF";
+
+var robot = new Robot(1, 1, Directions.North, grid, command);
+
+robot.ExecuteCommands();
+
+Console.WriteLine($"{robot.X},{robot.Y},{Enum.GetName(robot.Direction)}");
